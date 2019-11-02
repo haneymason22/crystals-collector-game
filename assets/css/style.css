@@ -1,0 +1,106 @@
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    background-color: chocolate;
+    padding: 30px;
+    width: 20%;
+    color: white;
+    
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: green;
+    font-weight: bold;
+}
+
+body {
+    background-color:#def;
+background-image: radial-gradient(closest-side, transparent 98%, rgba(0,0,0,.3) 99%),
+radial-gradient(closest-side, transparent 98%, rgba(0,0,0,.3) 99%);
+background-size:80px 80px;
+background-position:0 0, 40px 40px;
+}
+
+.Instructions {
+    background-color: burlywood;
+    width: 40%;
+    padding: 20px;
+}
+
+#random-number {
+    display: inline-block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    background-color: darkgreen;
+    height: 100px;
+    width: 20%;
+   
+}
+
+.win-loss {
+    background-color: lightseagreen;
+    color: blue;
+    width: 70px;
+    height: 50px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.crystals {
+    text-align: left;
+}
+
+#first-crystal {
+    height: 100px;
+    width: 100px;
+}
+
+#second-crystal {
+    height: 100px;
+    width: 100px;
+}
+
+#third-crystal {
+    height: 100px;
+    width: 100px;
+}
+
+#fourth-crystal {
+    height: 100px;
+    width: 100px;
+}
+
+#total-score-is {
+    display: block;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-weight: bold;
+    background-color: teal;
+    color: white;
+    width: 20%;
+}
+
+#total-score {
+    display: block;
+    font-size: 2em;
+    margin-top: 4px;
+    font-weight: bold;
+    background-color: teal;
+    color: white;
+    height: 100px;
+    width: 20%;
+}
