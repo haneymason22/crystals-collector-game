@@ -10,8 +10,20 @@ h1 {
     padding: 30px;
     width: 20%;
     color: white;
-    
 }
+
+
+#header {
+    width: 1250px;
+    padding: 50px;
+    margin-left: 500px;
+}
+
+#instructions {
+    width: 1250px;
+    margin-left: 420px;
+}
+   
 
 p {
     display: block;
@@ -25,16 +37,17 @@ p {
 
 body {
     background-color:#def;
-background-image: radial-gradient(closest-side, transparent 98%, rgba(0,0,0,.3) 99%),
-radial-gradient(closest-side, transparent 98%, rgba(0,0,0,.3) 99%);
-background-size:80px 80px;
-background-position:0 0, 40px 40px;
+    background-image: radial-gradient(closest-side, transparent 98%, rgba(0,0,0,.3) 99%),
+    radial-gradient(closest-side, transparent 98%, rgba(0,0,0,.3) 99%);
+    background-size:80px 80px;
+    background-position:0 0, 40px 40px;
 }
 
-.Instructions {
+#instructions {
     background-color: burlywood;
     width: 40%;
     padding: 20px;
+    text-align: center;
 }
 
 #random-number {
@@ -46,9 +59,11 @@ background-position:0 0, 40px 40px;
     margin-inline-end: 0px;
     font-weight: bold;
     background-color: darkgreen;
-    height: 100px;
+    height: 75px;
     width: 20%;
-   
+    margin-left: 575px;
+    text-align: center;
+    padding-top: 50px;
 }
 
 .win-loss {
@@ -58,10 +73,13 @@ background-position:0 0, 40px 40px;
     height: 50px;
     padding: 10px;
     display: inline-block;
+    margin-left: 666px;
 }
 
 .crystals {
     text-align: left;
+    margin-left: 500px;
+    padding-top: 30px;
 }
 
 #first-crystal {
@@ -92,6 +110,8 @@ background-position:0 0, 40px 40px;
     background-color: teal;
     color: white;
     width: 20%;
+    text-align: center;
+    margin-left: 575px;
 }
 
 #total-score {
@@ -102,6 +122,8 @@ background-position:0 0, 40px 40px;
     font-weight: bold;
     background-color: teal;
     color: white;
-    height: 100px;
+    height: 35px;
     width: 20%;
+    margin-left: 575px;
+    text-align: center;
 }
